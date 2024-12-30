@@ -3,7 +3,8 @@
   "Source": "https://lehreroffice.net/",
   "Get": {
     "Update": {
-      "Uri": "https://www.lehreroffice.ch/services/update/getcurrentversion.php?app=Desktop"
+      "Uri": "https://www.cmi-bildung.ch/lo/dateien/easy/lo_version.txt",
+      "MatchVersion": "\\n\\s(\\d{4}([.]\\d){1,2})\\s"
     },
     "Download": {
       "Uri": "https://cmi-bildung.ch/lo/dateien/easy/lo_desktop_windows.exe"
